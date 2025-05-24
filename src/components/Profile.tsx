@@ -87,7 +87,7 @@ const Profile = () => {
                 {/* Name with gradient text */}
                 <div className="space-y-2">
                   <h1 className="text-5xl lg:text-6xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent animate-pulse">
-                    Alex Johnson
+                    Suraj Kushwaha
                   </h1>
                   <div className="flex items-center justify-center lg:justify-start gap-3">
                     <span className="text-2xl text-blue-300 font-semibold">Full Stack Developer</span>
@@ -104,7 +104,7 @@ const Profile = () => {
 
                 {/* Skills tags */}
                 <div className="flex flex-wrap gap-3 justify-center lg:justify-start">
-                  {["React", "Node.js", "Python", "AWS", "Docker"].map((skill) => (
+                  {["React", "Node.js", "Python" , "Typescript" , "Next.js"].map((skill) => (
                     <span 
                       key={skill}
                       className="px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-gray-300 border border-white/20 hover:border-blue-400/50 hover:text-white transition-all duration-300"
